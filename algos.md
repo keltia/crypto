@@ -1,8 +1,8 @@
-Symmetric ciphers
+Ciphers algorithms
 -------------------------
 Openssl : `openssl list-cipher-algorithms`.
 <table class="table table-striped table-bordered table-condensed">
-    <tr><td>**Symmetric ciphers**</td><td>**first published**</td><td>**Key sizes**</td <td>**Note(s)**</td></tr>
+    <tr><td>Ciphers Algorithms</td><td>first published</td><td>Key sizes</td <td>Note(s)</td></tr>
     <tr><td>[AES](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard)</td><td>1998</td><td>128, 192 or 256 bits</td><td>[AES winner](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard_process)</td></tr>
     <tr><td>[Blowfish](https://en.wikipedia.org/wiki/Blowfish_%28cipher%29)</td><td>1993</td><td>32 - 448 bits</td><td>successor: Twofish</td></tr>
     <tr><td>[Camellia](https://en.wikipedia.org/wiki/Camellia_%28cipher%29)</td><td>2000</td><td>128, 192 or 256 bits</td><td></td></tr>
@@ -17,7 +17,7 @@ Digest algorithms / Hash
 ---------------------
 OpenSSL: `list-message-digest-algorithms`.
 <table class="table table-striped table-bordered table-condensed">
-<tr><td>**Hash**</td><td>**first published**</td><td>**Key sizes**</td <td>**Note(s)**</td></tr>
+<tr><td>Digest Algorithms</td><td>first published</td><td>Key sizes</td <td>Note(s)</td></tr>
     <tr class="error"><td>[MD4](https://en.wikipedia.org/wiki/Md4)</td><td>1990</td><td>128 bits</td> <td>harmful since 1991, obsolete (collision) since 1995.</td></tr>
     <tr class="error"><td>[MD5](https://en.wikipedia.org/wiki/MD5)</td><td>1992</td><td>128 bits</td> <td>harmful since 1996, obsolete (collision) since 2004.</td></tr>
     <tr class="error"><td>[SHA-0](https://en.wikipedia.org/wiki/SHA-0#SHA-0)</td><td>1993</td><td>160 bits</td> <td>harmful since 1998, obsolete (collision totale) since 2004.</td></tr>
@@ -31,7 +31,7 @@ Key agreement
 ---------------------------
 OpenSSL: `openssl list-public-key-algorithms`.
 <table class="table table-striped table-bordered table-condensed">
-    <tr><td>****</td><td>**first published**</td><td>**Key sizes**</td <td>**Note(s)**</td></tr>
+    <tr><td></td><td>first published</td><td>Key sizes</td <td>Note(s)</td></tr>
     <tr><td>[DH](https://en.wikipedia.org/wiki/Diffie%E2%80%93Hellman_key_exchange)</td><td></td><td></td><td>a.k.a Diffie-Hellman</td></tr>
     <tr><td>[DSA](https://en.wikipedia.org/wiki/Digital_Signature_Algorithm)</td><td>1991</td><td></td><td></td></tr>
     <tr><td>[ECDSA](https://en.wikipedia.org/wiki/Elliptic_Curve_DSA)</td><td></td><td></td><td>Elliptic Curve DSA</td></tr>
@@ -39,17 +39,3 @@ OpenSSL: `openssl list-public-key-algorithms`.
     <tr><td>[RSA](https://en.wikipedia.org/wiki/RSA_%28algorithm%29#Encryption)</td><td>1977</td><td>1,024 to 4,096 bit</td><td></td></tr>
 </table>
 
-SSL / TLS
----------
-<table>
-<tr><td>**SSL/TLS**</td><td>**first published**</td><td>**Key sizes**</td <td>**Note(s)**</td></tr>
-<tr class="error"><td>SSL v1</td><td></td><td></td> <td>-</td></tr>
-<tr class="error"><td>SSL v2</td> <td></td><td></td><td></td></tr>
-<tr class="warning"><td>SSL v3</td> <td></td><td></td><td></td></tr>
-<tr class="good"><td>TLS v1</td> <td></td><td></td><td></td></tr>
-<tr class="good"><td>TLS v1.1</td> <td></td><td></td><td></td></tr>
-<tr class="good"><td>TLS v1.2</td> <td></td><td></td><td></td></tr>
-</table>
-
-
-    <tr><td></td><td></td><td></td><td></td></tr>
