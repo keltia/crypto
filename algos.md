@@ -1,4 +1,6 @@
-==== Symmetric ciphers ====
+Symmetric ciphers
+-----------------
+<table class="table table-striped table-bordered table-condensed">
     <tr><td><strong>Symmetric ciphers</strong></td><td>first published</td><td>Key sizes</td <td><strong>Note(s)</strong></td></tr>
     <tr><td>DHE</td><td></td><td></td><td></td></tr>
     <tr><td>EDH</td><td></td><td></td><td>Ephemeral Diffie-Hellman </td></tr>
@@ -6,7 +8,8 @@
 </table>
 
 
-====Algorithme de chiffrement====
+Algorithme de chiffrement
+-------------------------
 <table class="table table-striped table-bordered table-condensed">
     <tr><td><strong>Symmetric ciphers</strong></td><td>first published</td><td>Key sizes</td <td><strong>Note(s)</strong></td></tr>
     <tr><td>[AES](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard)</td><td>1998</td><td>128, 192 or 256 bits</td><td>[AES winner](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard_process)</td></tr>
@@ -22,7 +25,8 @@
 </table>
 
 
-====Public key cryptography and key agreement====
+Public key cryptography and key agreement
+-----------------------------------------
 <table class="table table-striped table-bordered table-condensed">
     <tr><td><strong></strong></td><td>first published</td><td>Key sizes</td <td><strong>Note(s)</strong></td></tr>
     <tr><td>dsa</td><td></td><td></td><td></td></tr>
@@ -30,8 +34,9 @@
     <tr><td>rsa</td><td></td><td></td><td></td></tr>
 </table>
 
-====Cypher algorithms====
-<p>Openssl : <code>openssl list-cipher-algorithms</code>.
+Cypher algorithms
+-----------------
+`Openssl : <code>openssl list-cipher-algorithms`.
 <table class="table table-striped table-bordered table-condensed">
     <tr class="success"><td>AES</td><td>key >=128</td><td></td><td></td></tr>
     <tr><td>BF</td><td></td><td></td><td></td></tr>
@@ -43,7 +48,8 @@
 </table>
 
 
-====Algorithme de hachage====
+Algorithme de hachage
+---------------------
 
 <table class="table table-striped table-bordered table-condensed">
 <tr><td><strong>Hash</syytrong></td><td>first published</td><td>Key sizes</td <td><strong>Note(s)</strong></td></tr>
@@ -65,7 +71,8 @@
     <tr class="success"><td>Whirlpool (512 bits)</td><td></td><td></td> <td> standard actuel (2013), pas de problème connu.</td></tr>
 </table>
 
-====SSL / TLS====
+SSL / TLS
+---------
 <tr><td><strong>SSL/TLS</strong></td><td>first published</td><td>Key sizes</td <td><strong>Note(s)</strong></td></tr>
 <tr class="error"><td>SSL v1</td><td></td><td></td> <td>-</td></tr>
 <tr class="error"><td>SSL v2</td> <td></td><td></td><td></td></tr>
