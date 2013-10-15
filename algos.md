@@ -21,7 +21,7 @@ OpenSSL: `openssl list-message-digest-algorithms`.
     <tr class="error"><td>[MD4](https://en.wikipedia.org/wiki/Md4)</td><td>1990</td><td>128 bits</td> <td>harmful since 1991, obsolete (collision) since 1995.</td></tr>
     <tr class="error"><td>[MD5](https://en.wikipedia.org/wiki/MD5)</td><td>1992</td><td>128 bits</td> <td>harmful since 1996, obsolete (collision) since 2004.</td></tr>
     <tr class="error"><td>[SHA-0](https://en.wikipedia.org/wiki/SHA-0#SHA-0)</td><td>1993</td><td>160 bits</td> <td>harmful since 1998, obsolete (collision totale) since 2004.</td></tr>
-    <tr class="warning"><td>[SHA-1](https://en.wikipedia.org/wiki/SHA-1)</td>1995<td></td><td>160 bits</td> <td>harmful since 2005.</td></tr>
+    <tr class="warning"><td>[SHA-1](https://en.wikipedia.org/wiki/SHA-1)</td><td>1995</td><td>160 bits</td> <td>harmful since 2005.</td></tr>
     <tr><td>[SHA-2](https://en.wikipedia.org/wiki/SHA-2)</td><td>2001</td><td>224/256 bits or 384/512 bits</td> <td>-</td></tr>
     <tr><td>[SHA-3](https://en.wikipedia.org/wiki/SHA-3)</td><td>soon?</td><td></td> <td>in progress</td></tr>
     <tr class="good"><td>[Whirlpool](https://en.wikipedia.org/wiki/Whirlpool_%28cryptography%29)</td><td>2000</td><td>512 bits</td> <td></td></tr>
