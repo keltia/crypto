@@ -31,7 +31,7 @@ Key agreement
 ---------------------------
 OpenSSL: `openssl list-public-key-algorithms`.
 <table class="table table-striped table-bordered table-condensed">
-    <tr><td></td><td>first published</td><td>Key sizes</td><td>Note</td></tr>
+    <tr><td>Key agreement</td><td>first published</td><td>Key sizes</td><td>Note</td></tr>
     <tr><td>[DH](https://en.wikipedia.org/wiki/Diffie%E2%80%93Hellman_key_exchange)</td><td></td><td></td><td>a.k.a Diffie-Hellman</td></tr>
     <tr><td>[DSA](https://en.wikipedia.org/wiki/Digital_Signature_Algorithm)</td><td>1991</td><td></td><td></td></tr>
     <tr><td>[ECDSA](https://en.wikipedia.org/wiki/Elliptic_Curve_DSA)</td><td></td><td></td><td>Elliptic Curve DSA</td></tr>
