@@ -15,7 +15,7 @@ Openssl : `openssl list-cipher-algorithms`.
 
 Digest algorithms / Hash
 ---------------------
-OpenSSL: `list-message-digest-algorithms`.
+OpenSSL: `openssl list-message-digest-algorithms`.
 <table class="table table-striped table-bordered table-condensed">
 <tr><td>Digest Algorithms</td><td>first published</td><td>Key sizes</td><td>Note</td></tr>
     <tr class="error"><td>[MD4](https://en.wikipedia.org/wiki/Md4)</td><td>1990</td><td>128 bits</td> <td>harmful since 1991, obsolete (collision) since 1995.</td></tr>
