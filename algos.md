@@ -3,7 +3,7 @@ Ciphers algorithms
 Openssl : `openssl list-cipher-algorithms`.
 <table class="table table-striped table-bordered table-condensed">
     <tr><td>Ciphers Algorithms</td><td>first published</td><td>Key sizes</td><td>Note</td></tr>
-    <tr><td>[AES](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard)</td><td>1998</td><td>128, 192 or 256 bits</td><td>[AES winner](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard_process)</td></tr>
+    <tr><td><a href="https://en.wikipedia.org/wiki/Advanced_Encryption_Standard">AES</a>)</td><td>1998</td><td>128, 192 or 256 bits</td><td>[AES winner](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard_process)</td></tr>
     <tr><td>[Blowfish](https://en.wikipedia.org/wiki/Blowfish_%28cipher%29)</td><td>1993</td><td>32 - 448 bits</td><td>successor: Twofish</td></tr>
     <tr><td>[Camellia](https://en.wikipedia.org/wiki/Camellia_%28cipher%29)</td><td>2000</td><td>128, 192 or 256 bits</td><td></td></tr>
     <tr class="error"><td>[DES](https://en.wikipedia.org/wiki/Data_Encryption_Standard)</td><td> 1977/1979</td><td>56 bits</td><td></td></tr>
