@@ -1,8 +1,8 @@
 Ciphers algorithms
 -------------------------
 Openssl : `openssl list-cipher-algorithms`.
-<table class="table table-striped table-bordered table-condensed">
-    <tr><td>Ciphers Algorithms</td><td>first published</td><td>Key sizes</td><td>Note</td></tr>
+<table>
+    <tr><th>Ciphers Algorithms</th><th>first published</th><th>Key sizes</th><th>Note</th></tr>
         <tr><td><a href="https://en.wikipedia.org/wiki/Advanced_Encryption_Standard">AES</a></td><td>1998</td><td>128, 192 or 256 bits</td><td><a href="https://en.wikipedia.org/wiki/Advanced_Encryption_Standard_process">AES winner</a></td></tr>
     <tr><td><a href="https://en.wikipedia.org/wiki/Blowfish_%28cipher%29">Blowfish</a></td><td>1993</td><td>32 - 448 bits</td><td>successor: Twofish</td></tr>
     <tr><td><a href="https://en.wikipedia.org/wiki/Camellia_%28cipher%29">Camellia</a></td><td>2000</td><td>128, 192 or 256 bits</td><td></td></tr>
@@ -16,8 +16,8 @@ Openssl : `openssl list-cipher-algorithms`.
 Digest algorithms / Hash
 ---------------------
 OpenSSL: `openssl list-message-digest-algorithms`.
-<table class="table table-striped table-bordered table-condensed">
-<tr><td>Digest Algorithms</td><td>first published</td><td>Key sizes</td><td>Note</td></tr>
+<table>
+<tr><th>Digest Algorithms</th><th>first published</th><th>Key sizes</th><th>Note</th></tr>
     <tr class="error"><td><a href="https://en.wikipedia.org/wiki/Md4">MD4</a></td><td>1990</td><td>128 bits</td> <td>harmful since 1991, obsolete (collision) since 1995.</td></tr>
     <tr class="error"><td><a href="https://en.wikipedia.org/wiki/MD5">MD5</a></td><td>1992</td><td>128 bits</td> <td>harmful since 1996, obsolete (collision) since 2004.</td></tr>
     <tr class="error"><td><a href="https://en.wikipedia.org/wiki/SHA-0#SHA-0">SHA-0</a></td><td>1993</td><td>160 bits</td> <td>harmful since 1998, obsolete (collision totale) since 2004.</td></tr>
@@ -30,8 +30,8 @@ OpenSSL: `openssl list-message-digest-algorithms`.
 Key agreement
 ---------------------------
 OpenSSL: `openssl list-public-key-algorithms`.
-<table class="table table-striped table-bordered table-condensed">
-    <tr><td>Key agreement</td><td>first published</td><td>Key sizes</td><td>Note</td></tr>
+<table>    
+    <tr><th>Key agreement</th><th>first published</th><th>Key sizes</th><th>Note</th></tr>
     <tr><td><a href="https://en.wikipedia.org/wiki/Diffie%E2%80%93Hellman_key_exchange">DH</a></td><td></td><td></td><td>a.k.a Diffie-Hellman</td></tr>
     <tr><td><a href="https://en.wikipedia.org/wiki/Digital_Signature_Algorithm">DSA</a></td><td>1991</td><td></td><td></td></tr>
     <tr><td><a href="https://en.wikipedia.org/wiki/Elliptic_Curve_DSA">ECDSA</a></td><td></td><td></td><td>Elliptic Curve DSA</td></tr>
