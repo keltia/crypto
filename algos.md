@@ -3,13 +3,13 @@ Ciphers algorithms
 Openssl : `openssl list-cipher-algorithms`.
 <table>
     <tr><th>Ciphers Algorithms</th><th>first published</th><th>Key sizes</th><th>Note</th></tr>
-        <tr><td><a href="https://en.wikipedia.org/wiki/Advanced_Encryption_Standard">AES</a></td><td>1998</td><td>128, 192 or 256 bits</td><td><a href="https://en.wikipedia.org/wiki/Advanced_Encryption_Standard_process">AES winner</a></td></tr>
+        <tr><td><a href="https://en.wikipedia.org/wiki/Advanced_Encryption_Standard">AES</a></td><td>1998</td><td>128, 192 or 256 bits</td><td><a href="https://en.wikipedia.org/wiki/Advanced_Encryption_Standard_process">AES winner</a> né <a href="http://csrc.nist.gov/archive/aes/rijndael/Rijndael-ammended.pdf">Rijndael</a></td></tr>
     <tr><td><a href="https://en.wikipedia.org/wiki/Blowfish_%28cipher%29">Blowfish</a></td><td>1993</td><td>32 - 448 bits</td><td>successor: Twofish</td></tr>
     <tr><td><a href="https://en.wikipedia.org/wiki/Camellia_%28cipher%29">Camellia</a></td><td>2000</td><td>128, 192 or 256 bits</td><td></td></tr>
-    <tr class="error"><td><a href="https://en.wikipedia.org/wiki/Data_Encryption_Standard">DES</a></td><td> 1977/1979</td><td>56 bits</td><td></td></tr>
-    <tr class="error"><td><a href="https://en.wikipedia.org/wiki/RC4">RC4</a></td><td>1987</td><td>40–2,048 bits</td><td></td></tr>
+    <tr class="error"><td><a href="https://en.wikipedia.org/wiki/Data_Encryption_Standard">DES</a></td><td> 1977/1979</td><td>56 bits</td><td>Started with 64 bit key, was hardened by NSA</td></tr>
+    <tr class="error"><td><a href="https://en.wikipedia.org/wiki/RC4">RC4</a></td><td>1987</td><td>40–2,048 bits</td><td>Never published, leaked on Usenet</td></tr>
     <tr class="good"><td><a href="https://en.wikipedia.org/wiki/Serpent_%28cipher%29">Serpent</a></td><td>1998</td><td>128, 192 or 256 bits</td><td><a href="https://en.wikipedia.org/wiki/Advanced_Encryption_Standard_process">AES finalist</a></td></tr>
-    <tr><td><a href="https://en.wikipedia.org/wiki/Triple_DES">TripleDES</a></td><td>1998</td><td>56, 112 or 168 bits</td><td>a.k.a DES3</td></tr>
+    <tr><td><a href="https://en.wikipedia.org/wiki/Triple_DES">TripleDES</a></td><td>1998</td><td>56, 112 or 168 bits</td><td>a.k.a 3DES</td></tr>
     <tr><td><a href="https://en.wikipedia.org/wiki/Twofish">TwoFish</a></td><td>1998</td><td>128, 192 or 256 bits</td><td><a href="https://en.wikipedia.org/wiki/Advanced_Encryption_Standard_process">AES finalist</a></td></tr>
 </table>
 
